@@ -1,8 +1,11 @@
 import React from 'react'
+import Style from './Loader.Module.scss';
 
 const Loader = () => {
   return (
-    <div>Loader</div>
+    <div>
+      <RotatingLines />
+    </div>
   )
 }
 
